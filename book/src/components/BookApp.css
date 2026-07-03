@@ -1,0 +1,47 @@
+.book-container {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-form input,
+.book-form select,
+.book-form button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.book-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-form button:hover {
+  background: #0056b3;
+}
+
+.book-list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+}
